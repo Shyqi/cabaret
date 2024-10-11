@@ -8,7 +8,6 @@ import utcrew from "./assets/images/utcrew.jpg";
 import gs from "./assets/images/gs.jpg";
 import contempo from "./assets/images/contempo.jpg";
 import mail from "./assets/images/mail.svg";
-import danse from "./assets/images/danse.jpg";
 import danse2 from "./assets/images/danse_2.jpg";
 import navette from "./assets/images/shuttle.svg";
 import vin from "./assets/images/vin.svg";
