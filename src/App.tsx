@@ -165,7 +165,7 @@ function App() {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel className="text-white">Non</AlertDialogCancel>
-                  <a href="https://stats.sheepesports.com/">
+                  <a href="https://utc.wooch.fr/sales/cabaret-cabaret-a24">
                     <AlertDialogAction>Oui</AlertDialogAction>
                   </a>
                 </AlertDialogFooter>
