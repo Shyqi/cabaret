@@ -113,8 +113,8 @@ function App() {
           <h1 className="relative md:top-[-90px] top-[-60px]  text-orange-400 gradient-text  md:text-5xl text-4xl">Les artistes</h1>
           <img src={vector} className=" md:max-w-[300px] max-w-[250px] relative md:top-[-90px] top-[-70px]" />
 
-          <div className="grid lg:grid-cols-2 justify-center md:w-3/4 w-5/6 grid-cols-1 gap-12">
-            <div className="w-full flex justify-center">
+          <div className="grid lg:grid-cols-3 justify-center md:w-3/4 w-5/6 grid-cols-1 gap-12">
+            <div className="w-full flex justify-center col-span-2">
               <div className="w-5/6 flex text-white items-center">
                 <Carousel>
                   <CarouselContent>
@@ -140,11 +140,7 @@ function App() {
               </div>
             </div>
             <div className="w-full flex justify-center items-center">
-              <div className="md:w-3/4 w-5/6 text-gray-300 font-vintage text-xl ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel scelerisque lacus, vitae feugiat mi. Ut suscipit leo enim. Aenean vitae semper sem, vel blandit neque. Cras elementum mi
-                nec mauris posuere dignissim in ac nunc. Etiam condimentum lacus massa, nec efficitur nisi semper sed. Proin lacus purus, malesuada in ornare nec, semper in sapien. Proin condimentum
-                lorem consectetur, dictum justo sit amet, tincidunt ex.
-              </div>
+              <div className="md:w-3/4 w-5/6 text-amber-200 font-parklane text-xl text-center md:pl-12 pl-12">Annonce à venir...</div>
             </div>
           </div>
         </div>
@@ -183,10 +179,10 @@ function App() {
           <img src={vector} className=" max-w-[300px] mb-12 " />
           <div className="grid lg:grid-cols-1 justify-center md:w-3/4 w-5/6 grid-cols-1 gap-12 ">
             <div className="w-full flex justify-center items-center">
-              <div className="md:w-3/4 w-5/6 text-gray-300 font-vintage text-xl ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel scelerisque lacus, vitae feugiat mi. Ut suscipit leo enim. Aenean vitae semper sem, vel blandit neque. Cras elementum mi
-                nec mauris posuere dignissim in ac nunc. Etiam condimentum lacus massa, nec efficitur nisi semper sed. Proin lacus purus, malesuada in ornare nec, semper in sapien. Proin condimentum
-                lorem consectetur, dictum justo sit amet, tincidunt ex.
+              <div className="md:w-3/4 w-5/6 text-xl text-center text-neutral-400">
+                Les navettes partiront toutes de BF pour t’amener sur le lieu du Cabaret. Aucune arrivée en voiture n’est autorisée, tu pourras choisir une navette dont les départs se feront à 18h15,
+                18h30 et 19h15. N’oublie pas de checker l’heure à laquelle tu finis le Jeudi 21 pour être sûr de ne pas ne tromper et manquer la soirée ! Pour les artistes et les serveurs, votre
+                navette partira à 17h15.
               </div>
             </div>
           </div>
@@ -208,19 +204,20 @@ function App() {
 
             <div className="grid lg:grid-cols-2 grid-cols-1 w-full lg:gap-0 gap-5">
               <div className="flex w-full justify-center items-center text-white">
-                <div className="md:w-3/4 w-5/6 md:h-[328px] h-[238px] flex flex-col items-center bg-black/50 shadow-2xl">
+                <div className="md:w-3/4 w-5/6 2xl:h-[370px] xl:h-[390px] lg:h-[396px] md:h-[368px] sm:h-[236px] h-[242px] flex flex-col items-center bg-black/50 shadow-2xl">
                   <div className="flex w-full justify-between">
                     <img src={leftcorner} className=" md:w-40 md:h-40 w-20 h-20" />
                     <img src={leftcorner} className="md:w-40 md:h-40 w-20 h-20 rotate-90" />
                   </div>
-                  <div className=" relative md:-top-28 -top-14 font-parklane  gradient-text w-full flex flex-col md:gap-7 gap-4">
-                    <h2 className="text-3xl text-center ">Végétarien</h2>
-                    <div className=" text-xl ml-20 text-white font-parkside">
-                      <ul className="flex flex-col gap-2">
-                        <li>Entrée :</li>
-                        <li>Plat :</li>
-                        <li>Boisson :</li>
-                        <li>Dessert :</li>
+                  <div className=" relative md:-top-28 -top-14 font-parklane  w-full flex flex-col md:gap-7 gap-4">
+                    <h2 className="text-3xl text-center gradient-text ">Végétarien</h2>
+                    <div className=" text-xl text-white">
+                      <ul className="flex flex-col gap-2 items-center text-center text-neutral-200 md:text-xl text-sm px-6">
+                        <li>Canapés swingants</li>
+                        <li>Falafel maison</li>
+                        <li>Gratin dauphinois et ses champignons dansants</li>
+                        <li>Crazy fromage</li>
+                        <li>L'estival</li>
                       </ul>
                     </div>
                   </div>
@@ -231,19 +228,20 @@ function App() {
                 </div>
               </div>
               <div className="flex w-full justify-center items-center text-white">
-                <div className="md:w-3/4 w-5/6 md:h-[328px] h-[238px] flex flex-col items-center bg-black/50 shadow-2xl">
+                <div className="md:w-3/4 w-5/6 2xl:h-[370px] xl:h-[390px] lg:h-[396px] md:h-[368px] sm:h-[236px] h-[242px] flex flex-col items-center bg-black/50 shadow-2xl">
                   <div className="flex w-full justify-between">
                     <img src={leftcorner} className=" md:w-40 md:h-40 w-20 h-20" />
                     <img src={leftcorner} className="md:w-40 md:h-40 w-20 h-20 rotate-90" />
                   </div>
-                  <div className=" relative md:-top-28 -top-14 font-parklane  gradient-text w-full flex flex-col md:gap-7 gap-4">
-                    <h2 className="text-3xl text-center ">Non végétarien</h2>
-                    <div className=" text-xl ml-20 text-white font-parkside">
-                      <ul className="flex flex-col gap-2">
-                        <li>Entrée :</li>
-                        <li>Plat :</li>
-                        <li>Boisson :</li>
-                        <li>Dessert :</li>
+                  <div className=" relative md:-top-28 -top-14 font-parklane  w-full flex flex-col md:gap-7 gap-4">
+                    <h2 className="text-3xl text-center gradient-text ">Non végétarien</h2>
+                    <div className=" text-xl text-white font-parkside">
+                      <ul className="flex flex-col gap-2 items-center text-center text-neutral-200 md:text-xl text-sm px-6">
+                        <li>Canapés swingants</li>
+                        <li>Cuisse de pintade</li>
+                        <li>Gratin dauphinois et ses champignons dansants</li>
+                        <li>Crazy fromage</li>
+                        <li>L'estival</li>
                       </ul>
                     </div>
                   </div>
@@ -263,7 +261,7 @@ function App() {
               cabaret@assos.utc.fr
             </a>
           </div>
-          <div className="w-full flex flex-col items-center font-parklane  gradient-text justify-center text-center">Site créé par Antonio Godoy Pellini pour l'association "Le Cabaret A24"</div>
+          <div className="w-full flex flex-col items-center font-parklane  gradient-text justify-center text-center">Site créé par Antonio Godoy Pellini pour l'association "Le Cabaret"</div>
         </div>
       </div>
     </>
